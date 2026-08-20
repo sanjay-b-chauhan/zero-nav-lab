@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/index-mWuYYD5C.js","assets/index-n7nLOGrT.css"])))=>i.map(i=>d[i]);
+import{_ as n}from"./index-mWuYYD5C.js";async function o(e="reset"){try{const{useUsageBillingStore:t}=await n(async()=>{const{useUsageBillingStore:i}=await import("./index-mWuYYD5C.js").then(a=>a.bg);return{useUsageBillingStore:i}},__vite__mapDeps([0,1]));await t.getState().invalidateAfterReset()}catch(t){console.warn(`[billing] Failed to invalidate account billing after ${e}:`,t)}}export{o as invalidateAccountBillingAfterReset};
